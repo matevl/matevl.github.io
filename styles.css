@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #061f35; /* Dark background for header */
+    background-color: #061f35; /* Updated background color */
     padding: 1em 0;
     width: 100%;
     display: flex;
@@ -32,6 +32,16 @@ header {
 main {
     padding: 2em;
     text-align: center;
+}
+
+#description-section {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #1f1f1f;
 }
 
 .download-button {
