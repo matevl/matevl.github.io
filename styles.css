@@ -16,7 +16,7 @@ body.dark-mode {
 }
 
 header {
-    background-color: #fff;
+    background-color: #061f35;
     padding: 2em 0;
     width: 100%;
     display: flex;
@@ -28,7 +28,7 @@ header {
 }
 
 body.dark-mode header {
-    background-color: #1f1f1f;
+    background-color: #061f35;
     color: #f4f4f9;
 }
 
@@ -47,7 +47,7 @@ body.dark-mode header {
     right: 20px;
     background: none;
     border: none;
-    color: #007aff;
+    color: #f4f4f9;
     font-size: 1em;
     cursor: pointer;
 }
@@ -109,12 +109,22 @@ body.dark-mode #description-section p, body.dark-mode #about-us-section p {
     color: #ccc;
 }
 
+a {
+    color: #061f35;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #005fc7;
+}
+
 .download-button {
     display: inline-block;
     padding: 12px 24px;
     font-size: 1em;
     color: white;
-    background-color: #007aff;
+    background-color: #061f35;
     border: none;
     border-radius: 24px;
     text-decoration: none;
